@@ -29,7 +29,7 @@ const Header:React.FC = () => {
             </div>
           </nav>
           <div className='flex items-center gap-6'>
-            <button className='w-[100px] md:w-[120px] text-[15px] bg-gradient-to-r from-gray-500 to-gray-300 p-2 rounded-tl-3xl rounded-tr-3xl rounded-br-3xl cursor-pointer'>Resume</button>
+            <button className='w-[100px] md:w-[120px] text-[15px] bg-gradient-to-r from-gray-500 to-purple-200 p-2 rounded-tl-3xl rounded-tr-3xl rounded-br-3xl cursor-pointer'>Resume</button>
             <div onClick={() => setShowMenu(!showMenu)} className='cursor-pointer z-50 lg:hidden'>
               {showMenu ? <LiaTimesSolid size={25} className='text-black' /> : <HiBars3BottomRight size={25} />}
             </div>

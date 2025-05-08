@@ -43,7 +43,7 @@ const Hero:React.FC = () => {
         </div>
       </div>
       <div className='w-full'>
-        <h1 className='text-[70px] text-white/35 font-serif md:text-[80px] lg:text-[120px] whitespace-nowrap font-bold'>I build user interfaces for web applications.</h1>
+        <h1 className='text-[70px] text-white/25 font-serif md:text-[80px] lg:text-[120px] whitespace-nowrap font-bold'>I build user interfaces for web applications.</h1>
       </div>
     </section>
   )
