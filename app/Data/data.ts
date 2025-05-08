@@ -64,6 +64,7 @@ export const resume = [
       {
         institution: 'University of Ilorin, Nigeria.',
         role: ['B.Sc. Geology and Mineral Science'],
+        url: 'https://www.unilorin.edu.ng/',
         year: '2019 - 2024'
       },
       {
@@ -81,15 +82,9 @@ export const resume = [
       {
         institution: 'ExamCompassNG, Lagos, Nigeria.',
         role: ['Frontend Developer'],
+        url: 'https://www.examcompassng.com/',
+        year: '2024 - present'
       }
     ]
-  }
-]
-
-export const myServices = [
-  {
-    name: 'Frontend Development',
-    description: 'I create responsive and user-friendly web applications, design visually appealing and accessible interfaces, optimize performance for speed and efficiency, and build reusable, scalable components, while also ensuring smooth functionality through thorough testing and automation.',
-    stack: ['HTML', 'CSS', 'JavaScript', 'React.js', 'TypeScript', 'Tailwind', 'Motion', 'Git', 'Playwright', 'Redux', 'Playwright', 'GraphQL', 'Framer Motion']
   }
 ]

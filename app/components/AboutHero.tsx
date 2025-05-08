@@ -4,7 +4,7 @@ import { motion } from 'motion/react'
 const AboutHero = () => {
   return (
     <section className='h-screen md:h-auto md:py-52 flex items-center justify-center'>
-      <div className='container w-[95%] md:w-[90%] lg:w-[95%] mx-auto px-1'>
+      <div className='container w-[95%] md:w-[90%] lg:w-[90%] mx-auto px-1'>
         <motion.h1
          initial={{ opacity: 0, y: 40 }}
          whileInView={{ opacity: 1, y: 0 }}
