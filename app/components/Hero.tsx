@@ -21,7 +21,7 @@ const Hero:React.FC = () => {
   }
 
   return (
-    <section className='w-full h-screen md:h-auto bg-black pt-28 lg:pt-40 pb-3.5 flex flex-col items-center justify-between relative overflow-hidden'>
+    <section className='w-full h-screen md:h-auto bg-blac pt-28 lg:pt-40 pb-3.5 flex flex-col items-center justify-between relative overflow-hidden'>
       <div className='container mx-auto mb- md:mb-14'>
         <div>
           <motion.h1
@@ -34,7 +34,7 @@ const Hero:React.FC = () => {
            animate={{ opacity: 1, y: 0 }}
            transition={{ duration: 0.5, delay: 0.6 }}
            className='text-6xl md:text-8xl text-center font-bold mb-7'>Afolayan</motion.h1>
-          <div className='text-gray-500 flex items-center justify-center gap-7'>
+          <div className='text-[#896431] flex items-center justify-center gap-7'>
             <MdHorizontalRule size={25} />
             <FaGithub size={25} />
             <FaLinkedinIn size={25} />
@@ -43,7 +43,7 @@ const Hero:React.FC = () => {
         </div>
       </div>
       <div className='w-full'>
-        <h1 className='text-[70px] text-white/25 font-serif md:text-[80px] lg:text-[120px] whitespace-nowrap font-bold'>I build user interfaces for web applications.</h1>
+        <h1 className='text-[70px] text-[#f5e7d376] font-serif md:text-[80px] lg:text-[120px] whitespace-nowrap font-bold'>I build user interfaces for web applications.</h1>
       </div>
     </section>
   )

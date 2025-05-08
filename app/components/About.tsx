@@ -16,14 +16,14 @@ const About:React.FC = () => {
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
                   transition={{ duration: 0.5, delay: 0.6 }}
-                  className='text-2xl text-white md:text-4xl tracking-widest font-bold mb-5'
+                  className='text-3xl md:text-5xl mb-12'
                 >About Me</motion.h3>
                 <motion.p
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
                   transition={{ duration: 0.5, delay: 0.8 }}
                   className='text-lg text-justify font-serif text-white'
-                >Hi, I’m Tomisin Afolayan. I'm a front-end developer proficient in building high-performance web applications using React.JS with Typescript. My projects have consistently resulted in improved performance and user satisfaction. Eager to contribute to innovative software solutions with a focus on high performance as a dedicated developer.</motion.p>
+                >Hi, I’m Tomisin Afolayan. I'm a front-end developer proficient in building high-performance web applications using React.JS, Next.JS with Typescript. My projects have consistently resulted in improved performance and user satisfaction. Eager to contribute to innovative software solutions with a focus on high performance as a dedicated developer.</motion.p>
               </div>
             </div>
           </div>

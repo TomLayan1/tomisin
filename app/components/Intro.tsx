@@ -4,8 +4,8 @@ import { motion } from "motion/react";
 
 const Intro:React.FC = () => {
   return (
-    <div className="w-full h-[100vh] bg-black flex items-center lg:items-baseline-last justify-center overflow-hidden">
-      <div className="container mx-auto flex items-center justify-center gap-4 md:gap-5">
+    <div className="w-full h-[100vh] flex items-center lg:items-baseline-last justify-center overflow-hidden">
+      <div className="container mx-auto flex items-baseline-last justify-center gap-3 md:gap-5">
         <motion.p
           initial={{ opacity: 0, y: -40 }}
           animate={{ opacity: 1, y: 0 }}
@@ -41,6 +41,11 @@ const Intro:React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 4.0 }}
           className="text-5xl md:text-8xl lg:text-[240px] font-bold">N</motion.p>
+        <motion.div 
+          initial={{ opacity: 0, }}
+          animate={{ opacity: 1, }}
+          transition={{ duration: 1, delay: 4.5 }}
+          className='w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[50px] lg:h-[50px] bg-[#896431] rounded-full'></motion.div>
       </div>
     </div>
   )

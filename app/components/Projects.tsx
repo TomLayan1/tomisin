@@ -8,12 +8,12 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 const Projects:React.FC = () => {
   
   return (
-    <section className='w-full bg-black py-8'>
+    <section className='w-full py-14'>
       <div className='constainer w-[80%] mx-auto'>
-        <h1 className='text-3xl md:text-5xl text-center mb-12'>Projects</h1>
+        <h1 className='text-3xl md:text-5xl text-center mb-20'>Projects</h1>
         <div className='grid md:grid-cols-2 gap-10'>
           {projects?.map((project, i) => (
-            <div key={i} className='border border-amber-200'>
+            <div key={i} className='border bg-[#171717]'>
               <div className='w-full overflow-hidden'>
                 <img className='w-full hover:scale-150 duration-500 ease-in-out' src={project.image} alt={project.name} />
               </div>
