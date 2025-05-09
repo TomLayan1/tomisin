@@ -6,9 +6,10 @@ import cityscape from '/city-scape.png'
 
 export const projects = [
   {
+    id: 1,
     name: 'City Scape',
     image: '/city-scape.png',
-    description: 'City Scape is a modern real estate platform that allows users search for rental properties and homes for sale. It features a dedicated property details page that provides in-depth information, including an interactive image carousel for a comprehensive view of each listing. Built with React.js, TypeScript, and Tailwind CSS, It delivers a responsive and visually appealing experience. Property data is dynamically fetched from Rapid API, ensuring up-to-date listings and accurate details.',
+    description: 'City Scape is a modern real estate platform that allows users search for rental properties and homes for sale. It features a dedicated property details page that provides in-depth information, including an interactive image carousel for a comprehensive view of each listing.',
     links: {
       github: 'https://github.com/TomLayan1/Real-estate/tree/main/real-estate',
       website: 'https://cityscapeng.netlify.app/'
@@ -18,6 +19,7 @@ export const projects = [
     ]
   },
   {
+    id: 2,
     name: 'DriveLuxury',
     image: '/drive-luxury.png',
     description: 'DriveLuxury is a premium car rental web application allowing users to rent luxury vehicles for both personal and business purposes. Leveraging React JS for dynamic functionality and Tailwind CSS for modern, responsive design.',
@@ -30,9 +32,10 @@ export const projects = [
     ]
   },
   {
+    id: 3,
     name: 'Coinwise',
     image: '/coinwise.png',
-    description: 'Coinwise, a cryptocurrency web app that displays live market prices and historical trends. Using Tailwind CSS for responsive design, Rapid API for real-time data, Moment for precise time formatting, and Chart JS for interactive visualizations.Crypto data is dynamically fetched from Rapid API, ensuring up-to-date and accurate details.',
+    description: 'Coinwise, a cryptocurrency web app that displays live market prices and historical trends. Using Tailwind CSS for responsive design, Rapid API for real-time data, Moment for precise time formatting, and Chart JS for interactive visualizations.',
     links: {
       github: 'https://github.com/TomLayan1/Coinwise/tree/main/coinwise',
       website: 'https://coinwiseng.netlify.app'
@@ -42,6 +45,7 @@ export const projects = [
     ]
   },
   {
+    id: 4,
     name: 'Tech Trend Digest',
     image: '/tech-trend-digest.png',
     description: 'Tech Trend Digest is a blog website focused on the latest in tech trends. Built using React JS and Tailwind CSS, this project demonstrates my skills in creating responsive, modern web interfaces as a frontend developer.',
