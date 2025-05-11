@@ -40,17 +40,17 @@ const Processes:React.FC = () => {
   return (
     <section className='w-full py-8'>
       <h1 className='text-3xl md:text-5xl text-center mb-20'>Working Process</h1>
-      <div className='container w-[90%] mx-auto grid md:grid-cols-4 gap-11 perspective'>
+      <div className='container w-[90%] lg:w-[80%] mx-auto grid md:grid-cols-4 gap-11 perspective'>
         {workProcess?.map((item, i) => (
           <motion.div
             initial={{ rotateX: 180, opacity: 0 }}
             whileInView={{ rotateX: 0, opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.5 * item.step }}
-            // viewport={{ once: true }}
+            viewport={{ once: true }}
             key={i}
             className='bg-gradient-to-br from-[#896431] via-[#f5e7d3] to-[#896431] p-1'
           >
-            <div className='h-full bg-[#1c1b1b] p-5 flex flex-col gap-3.5'>
+            <div className='h-full bg-[#1c1b1b] p-3 flex flex-col gap-3.5'>
               {item.icon}
               <h4>Step: {item.step}</h4>
               <p className='text-xl font-bold'>{item.title}</p>

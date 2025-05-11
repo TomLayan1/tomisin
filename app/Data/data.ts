@@ -1,9 +1,3 @@
-import driveLux from '/drive-luxury.png'
-import techTD from '/tech-trend-digest.png'
-import coinwise from '/coinwise.png'
-import cityscape from '/city-scape.png'
-
-
 export const projects = [
   {
     id: 1,
@@ -57,6 +51,20 @@ export const projects = [
       'React', 'Tailwind'
     ]
   }
+]
+
+export const stacks = [
+  'HTML5',
+  'CSS3',
+  'JavaScript',
+  'React.JS',
+  'Next.JS',
+  'TypeScript',
+  'Redux',
+  'Tailwind',
+  'GraphQL',
+  'Playwright',
+  'Git'
 ]
 
 

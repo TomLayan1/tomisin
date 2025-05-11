@@ -5,18 +5,23 @@ const Footer:React.FC = () => {
     <section className='w-full py-14'>
       <div className='container w-[95%] mx-auto'>
         <div>
-         <div>
-          <p>Home</p>
-          <p>About</p>
-          <p>Projects</p>
-          <p>Contact/p>
-         </div>
-
-         <div>
-          <FaGitHub size={25} />
-          <FaLinkedIn size={25} />
-         </div>
-         <p>TOMISIN 2025</p>
+          <div>
+            <div>
+              <p>Email</p>
+              <p>GitHub</p>
+              <p>LinkedIn</p>
+            </div>
+          </div>
+          <div>
+            <h1></h1>
+            <button>Email me</button>
+          </div>
+        </div>
+        <div>
+          <div>
+            <p>Tomisin Afolayan</p>
+            <p>All Rights Reserved C 2025</p>
+          </div>
         </div>
       </div>
     </section>

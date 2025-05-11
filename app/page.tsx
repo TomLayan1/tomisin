@@ -1,9 +1,10 @@
 "use client"
 
 import { useEffect, useState } from "react";
+import Intro from "./components/Intro";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Intro from "./components/Intro";
+import About from "./components/About";
 import Services from "./components/Services";
 import Processes from "./components/Processes";
 import Projects from "./components/Projects";
@@ -26,9 +27,10 @@ export default function Home() {
       {onComplete ?
         (<Intro />) 
       :
-        (<main className="bg-[#1c1b1b] min-h-screen">
+      (<main className="bg-[#1c1b1b] min-h-screen">
         <Header />
         <Hero />
+        <About />
         <Projects />
         <Services />
         <Processes />
