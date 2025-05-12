@@ -9,9 +9,12 @@ import { motion } from 'motion/react';
 const Projects:React.FC = () => {
   
   return (
-    <section className='w-full py-14 overflow-x-hidden'>
+    <section id='work' className='w-full pt-28 overflow-x-hidden'>
       <div className='constainer w-[93%] lg:w-[80%] mx-auto'>
-        <h1 className='text-3xl md:text-5xl text-center mb-20'>Projects</h1>
+        <div className='w-full flex items-center gap-3 mb-20'>
+          <h1 className='text-3xl md:text-5xl'>Projects</h1>
+          <hr className='w-[300px] border border-[#896431]' />
+        </div>
         <div className=''>
           {projects?.map(project => (
             <div key={project.id} className={`lg:flex ${project.id % 2 === 0 ? 'flex-row-reverse' :'flex-row'} gap-4 mb-10 lg:mb-28`}>

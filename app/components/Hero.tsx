@@ -21,7 +21,7 @@ const Hero:React.FC = () => {
   }
 
   return (
-    <section className='w-full h-screen md:h-auto bg-blac pt-28 lg:pt-40 pb-3.5 flex flex-col items-center justify-between relative overflow-hidden'>
+    <section id='home' className='w-full h-screen md:h-auto bg-blac pt-28 lg:pt-40 pb-3.5 flex flex-col items-center justify-between relative overflow-hidden'>
       <div className='container mx-auto mb- md:mb-14'>
         <div>
           <motion.h1
