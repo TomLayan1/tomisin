@@ -21,9 +21,7 @@ const Footer:React.FC = () => {
         <div className='flex flex-col-reverse gap-6 md:flex-row md:items-center md:justify-between'>
           <div className='mb-9'>
             <p className='text-[15px]'>
-              Design inspiration by 
-              <a href='https://www.geekmaros.dev/' target='_blank' rel='noopener noreferrer' className='font-bold'>geekmaros</a> 
-              built by <a href='https://github.com/TomLayan1/tomisin' target='_blank' rel='noopener noreferrer' className='font-bold'>Tomisin Afolayan</a>
+              <a href='https://github.com/TomLayan1/tomisin' target='_blank' rel='noopener noreferrer' className='font-bold'>Tomisin Afolayan</a>
             </p>
             <p className='text-[15px]'>All Rights Reserved &copy; 2025</p>
           </div>
