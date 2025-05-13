@@ -82,33 +82,5 @@ export const experiences = [
       'Collaborated with backend developer, designers to create seamless user experiences.',
       'Improved application performance, reduced load time to enhance efficiency.'
     ]
-  },
-  {
-    id: 2,
-    companyName: 'ExamCompassNG2',
-    role: 'Frontend Engineer',
-    location: 'Lagos, Nigeria',
-    date: 'November, 2024 - Present',
-    whatIDid: [
-      'Developed frontend components with React, TypeScript, and Tailwind CSS.',
-      'Implemented UI elements with Radix UI to improve accessibility and usability.',
-      'Wrote and executed automated tests using Playwright to ensure app reliability.',
-      'Collaborated with backend developer, designers to create seamless user experiences.',
-      'Improved application performance, reduced load time to enhance efficiency.'
-    ]
-  },
-  {
-    id: 3,
-    companyName: 'ExamCompassNG3',
-    role: 'Frontend Engineer',
-    location: 'Lagos, Nigeria',
-    date: 'November, 2024 - Present',
-    whatIDid: [
-      'Developed frontend components with React, TypeScript, and Tailwind CSS.',
-      'Implemented UI elements with Radix UI to improve accessibility and usability.',
-      'Wrote and executed automated tests using Playwright to ensure app reliability.',
-      'Collaborated with backend developer, designers to create seamless user experiences.',
-      'Improved application performance, reduced load time to enhance efficiency.'
-    ]
   }
 ]
