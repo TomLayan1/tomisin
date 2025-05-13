@@ -5,13 +5,8 @@ import { experiences } from '../Data/data';
 
 const Experience:React.FC = () => {
   const [experienceIndex, setExperienceIndex] = useState<number>(0);
-  // const [myExperiences, setMyExperiences] = useState(experiences);
-
-  const handleIndex = (id: number) => {
-  }
 
   const myExperience = experiences[experienceIndex]
-  console.log('myExperience:', myExperience);
 
   return (
     <section className='w-full pt-16 overflow-x-hidden'>

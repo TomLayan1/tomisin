@@ -1,5 +1,4 @@
 import React from 'react'
-import { motion } from 'motion/react'
 import { stacks } from '../Data/data'
 
 const About:React.FC = () => {

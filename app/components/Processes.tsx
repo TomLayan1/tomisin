@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from 'react'
+import React from 'react'
 import { LuNotebookPen } from "react-icons/lu";
 import { LuSettings2 } from "react-icons/lu";
 import { MdOutlineDeveloperMode } from "react-icons/md";
@@ -8,7 +8,6 @@ import { GrOptimize } from "react-icons/gr";
 import { motion } from 'motion/react'; 
 
 const Processes:React.FC = () => {
-  const [flipped, setFlipped] = useState<boolean>(false)
 
   const workProcess = [
     {
