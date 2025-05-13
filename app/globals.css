@@ -29,9 +29,6 @@ body {
 body::-webkit-scrollbar {
   width: 7px;
 }
-body::-webkit-scrollbar-track {
-  background: var(--foreground);
-}
 body::-webkit-scrollbar-thumb {
   background: #896431;
 }
