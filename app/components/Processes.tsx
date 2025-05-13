@@ -40,15 +40,15 @@ const Processes:React.FC = () => {
   return (
     <section id='processes' className='w-full py-8'>
       <div className='container w-[90%] lg:w-[80%] mx-auto'>
-        <div className='w-full flex items-center gap-3 mb-20'>
+        <div className='w-full flex items-center gap-3 mb-10 lg:mb-20'>
           <h1 className='text-3xl md:text-5xl'>Working Process</h1>
-          <hr className='w-[300px] border border-[#896431]' />
+          <hr className='min-w-[39px] md:w-[300px] border border-[#896431]' />
         </div>
-        <div className='grid md:grid-cols-4 gap-11 perspective'>
+        <div className='grid md:grid-cols-2 lg::grid-cols-4 gap-11 perspective'>
           {workProcess?.map((item, i) => (
             <motion.div
-              initial={{ rotateX: 180, opacity: 0 }}
-              whileInView={{ rotateX: 0, opacity: 1 }}
+              initial={{ rotateY: 180, opacity: 0 }}
+              whileInView={{ rotateY: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.5 * item.step }}
               viewport={{ once: true }}
               key={i}

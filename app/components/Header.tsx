@@ -19,7 +19,7 @@ const Header:React.FC = () => {
 
             <div className='flex flex-col lg:flex-row gap-8 mb-8 lg:mb-0'>
               <a href='#home' rel="noopener noreferrer" className='lg:hover:text-[#896431] duration-300 cursor-pointer'>Home</a>
-              <a href='#about' rel="noopener noreferrer" className='lg:hover:text-[#896431] duration-300 cursor-pointer'>about</a>
+              <a href='#about' rel="noopener noreferrer" className='lg:hover:text-[#896431] duration-300 cursor-pointer'>About</a>
               <a href='#work' rel="noopener noreferrer" className='lg:hover:text-[#896431] duration-300 cursor-pointer'>Work</a>
               <a href='#contact' rel="noopener noreferrer" className='lg:hover:text-[#896431] duration-300 cursor-pointer'>Contact</a>
             </div>

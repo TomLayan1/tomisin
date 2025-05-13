@@ -6,9 +6,9 @@ const About:React.FC = () => {
   return (
     <section id='about' className='w-full pt-28'>
       <div className='constainer w-[93%] lg:w-[80%] mx-auto'>
-        <div className='w-full flex items-center gap-3 mb-20'>
+        <div className='w-full flex items-center gap-3 mb-10 md:mb-20'>
           <h1 className='text-3xl md:text-5xl'>About Me</h1>
-          <hr className='w-[300px] border border-[#896431]' />
+          <hr className='min-w-[148px] md:w-[300px] border border-[#896431]' />
         </div>
         <div className='lg:flex gap-16'>
           <div className='mb-12 lg:mb-0 lg:w-1/2'>

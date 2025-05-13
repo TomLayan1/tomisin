@@ -36,8 +36,8 @@ const Hero:React.FC = () => {
            className='text-6xl md:text-8xl text-center font-bold mb-7'>Afolayan</motion.h1>
           <div className='text-[#896431] flex items-center justify-center gap-7'>
             <MdHorizontalRule size={25} />
-            <FaGithub size={25} />
-            <FaLinkedinIn size={25} />
+            <a href='https://github.com/TomLayan1' target='_blank' rel='noopener noreferrer'><FaGithub size={25} /></a>
+            <a href='https://www.linkedin.com/in/afolayan-oluwatomisin-428a86206/' target='_blank' rel='noopener noreferrer'><FaLinkedinIn size={25} /></a>
             <MdHorizontalRule size={25} />
           </div>
         </div>

@@ -8,6 +8,7 @@ import About from "./components/About";
 import Processes from "./components/Processes";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import Experience from "./components/Experience";
 
 export default function Home() {
   const [onComplete, setOnComplete] = useState<boolean>(true);
@@ -30,6 +31,7 @@ export default function Home() {
         <Header />
         <Hero />
         <About />
+        <Experience />
         <Projects />
         <Processes />
         <Footer />

@@ -68,35 +68,47 @@ export const stacks = [
 ]
 
 
-export const resume = [
+export const experiences = [
   {
     id: 1,
-    category: 'EDUCATION',
-    list: [
-      {
-        institution: 'University of Ilorin, Nigeria.',
-        role: ['B.Sc. Geology and Mineral Science'],
-        url: 'https://www.unilorin.edu.ng/',
-        year: '2019 - 2024'
-      },
-      {
-        institution: 'FreeCodeCamp. Online',
-        role: ['Responsive Web Design', 'Javascript Algorithm And Data Structure'],
-        url: 'https://www.freecodecamp.org/',
-        year: '2023 - 2024'
-      }
+    companyName: 'ExamCompassNG',
+    role: 'Frontend Engineer',
+    location: 'Lagos, Nigeria',
+    date: 'November, 2024 - Present',
+    whatIDid: [
+      'Developed frontend components with React, TypeScript, and Tailwind CSS.',
+      'Implemented UI elements with Radix UI to improve accessibility and usability.',
+      'Wrote and executed automated tests using Playwright to ensure app reliability.',
+      'Collaborated with backend developer, designers to create seamless user experiences.',
+      'Improved application performance, reduced load time to enhance efficiency.'
     ]
   },
   {
     id: 2,
-    category: 'EXPERIENCE',
-    list: [
-      {
-        institution: 'ExamCompassNG, Lagos, Nigeria.',
-        role: ['Frontend Developer'],
-        url: 'https://www.examcompassng.com/',
-        year: '2024 - present'
-      }
+    companyName: 'ExamCompassNG2',
+    role: 'Frontend Engineer',
+    location: 'Lagos, Nigeria',
+    date: 'November, 2024 - Present',
+    whatIDid: [
+      'Developed frontend components with React, TypeScript, and Tailwind CSS.',
+      'Implemented UI elements with Radix UI to improve accessibility and usability.',
+      'Wrote and executed automated tests using Playwright to ensure app reliability.',
+      'Collaborated with backend developer, designers to create seamless user experiences.',
+      'Improved application performance, reduced load time to enhance efficiency.'
+    ]
+  },
+  {
+    id: 3,
+    companyName: 'ExamCompassNG3',
+    role: 'Frontend Engineer',
+    location: 'Lagos, Nigeria',
+    date: 'November, 2024 - Present',
+    whatIDid: [
+      'Developed frontend components with React, TypeScript, and Tailwind CSS.',
+      'Implemented UI elements with Radix UI to improve accessibility and usability.',
+      'Wrote and executed automated tests using Playwright to ensure app reliability.',
+      'Collaborated with backend developer, designers to create seamless user experiences.',
+      'Improved application performance, reduced load time to enhance efficiency.'
     ]
   }
 ]
