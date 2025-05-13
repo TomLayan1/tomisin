@@ -11,13 +11,13 @@ const Experience:React.FC = () => {
     <section className='w-full pt-16 overflow-x-hidden'>
       <div className='container w-[95%] lg:w-[80%] mx-auto'>
         <div className='w-full flex items-center gap-3 mb-10 lg:mb-10'>
-          <h1 className='text-3xl md:text-5xl'>Where I've worked</h1>
+          <h1 className='text-3xl md:text-5xl'>Where I have worked</h1>
           <hr className='min-w-[175px] md:w-[300px] border border-[#896431]' />
         </div>
         <div className='hidden md:flex'>
           <div className='w-[45%] lg:w-[40%]'>
             {experiences?.map((experience, i) => (
-              <div key={experience.id} onClick={() => setExperienceIndex(i)} className={`w-full py-3 pl-5 cursor-pointer ${i === experienceIndex ? 'bg-[#292727] border-l-2 duration-200' : ''}`}>{experience.companyName}</div>          
+              <div key={experience.id} onClick={() => setExperienceIndex(i)} className={`w-full py-3 pl-5 cursor-pointer duration-200 ${i === experienceIndex ? 'bg-[#292727] border-l-2' : 'border-0'}`}>{experience.companyName}</div>          
             ))}
           </div>
           <div className='py-3 px-4'>
@@ -47,8 +47,8 @@ const Experience:React.FC = () => {
                 </div>
                 <p className='text-[15px]'>{myExperience.date}</p>
               </div>
-              {experience.whatIDid?.map(item => (
-                <div className='flex items-cente gap-1.5 mb-2'>
+              {experience.whatIDid?.map((item, i) => (
+                <div key={i} className='flex items-cente gap-1.5 mb-2'>
                   <MdPlayArrow size={20} className='text-[#896431]' />
                   <p className='text-[15px]'>{item}</p>
                 </div>
