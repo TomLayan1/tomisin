@@ -42,8 +42,8 @@ const Intro:React.FC = () => {
           transition={{ duration: 1, delay: 4.0 }}
           className="text-5xl md:text-8xl lg:text-[240px] font-bold">N</motion.p>
         <motion.div 
-          initial={{ opacity: 0, }}
-          animate={{ opacity: 1, }}
+          initial={{ scale: 0, }}
+          animate={{ scale: 1, }}
           transition={{ duration: 1, delay: 4.5 }}
           className='w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[50px] lg:h-[50px] bg-[#896431] rounded-full'></motion.div>
       </div>

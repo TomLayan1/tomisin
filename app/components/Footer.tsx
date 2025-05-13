@@ -3,7 +3,7 @@ import React from 'react'
 const Footer:React.FC = () => {
 
   return (
-    <section id='contact' className='w-full pt-14 lg:pb-7'>
+    <footer id='contact' className='w-full pt-14 lg:pb-7'>
       <div className='container w-[90%] lg:w-[80%] mx-auto'>
         <div className='flex flex-col-reverse md:flex-row md:justify-between mb-10 lg:mb-48'>
           <div className='w-[20%]'>
@@ -34,7 +34,7 @@ const Footer:React.FC = () => {
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   )
 }
 
