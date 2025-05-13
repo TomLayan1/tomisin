@@ -2,6 +2,7 @@ import React from 'react'
 import { stacks } from '../Data/data'
 
 const About:React.FC = () => {
+
   return (
     <section id='about' className='w-full pt-28'>
       <div className='constainer w-[93%] lg:w-[80%] mx-auto'>
@@ -13,7 +14,7 @@ const About:React.FC = () => {
           <div className='mb-12 lg:mb-0 lg:w-1/2'>
             <h1 className='text-3xl text-[#896431] font-bold mb-3'>Get to know me!</h1>
             <p className='leading-8'>
-              I'm a front-end developer proficient in building high-performance web applications using React.JS with Typescript. My projects have consistently resulted in improved performance and user satisfaction. Eager to contribute to innovative software solutions with a focus on high performance as a dedicated developer.
+              I am a front-end developer proficient in building high-performance web applications using React.JS with Typescript. My projects have consistently resulted in improved performance and user satisfaction. Eager to contribute to innovative software solutions with a focus on high performance as a dedicated developer.
             </p>
           </div>
           <div className='lg:w-1/2'>

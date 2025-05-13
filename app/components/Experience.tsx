@@ -5,8 +5,7 @@ import { experiences } from '../Data/data';
 
 const Experience:React.FC = () => {
   const [experienceIndex, setExperienceIndex] = useState<number>(0);
-
-  const myExperience = experiences[experienceIndex]
+  const myExperience = experiences[experienceIndex];
 
   return (
     <section className='w-full pt-16 overflow-x-hidden'>
@@ -27,10 +26,10 @@ const Experience:React.FC = () => {
                 <p className='font-bold'>{myExperience.role}</p>
                 <p className='font-bold text-[#896431]'>@ {myExperience.companyName}</p>
               </div>
-              <p className=' mb-2'>{myExperience.date}</p>
+              <p className='mb-2'>{myExperience.date}</p>
             </div>
-            {myExperience.whatIDid?.map(item => (
-              <div className='flex items-cente gap-1.5 mb-2'>
+            {myExperience.whatIDid?.map((item, i) => (
+              <div key={i} className='flex items-cente gap-1.5 mb-2'>
                 <MdPlayArrow size={20} className='text-[#896431]' />
                 <p>{item}</p>
               </div>

@@ -5,20 +5,20 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { motion } from 'motion/react';
 
 const Hero:React.FC = () => {
-  const textSliderVariant = {
-    initial: {
-      x: 0,
-    },
-    animate: {
-      x: '-230%',
-      transition: {
-        repeat: Infinity,
-        repeatType: 'mirror',
-        duration: 50,
-        delay: 0.5
-      }
-    }
-  }
+  // const textSliderVariant = {
+  //   initial: {
+  //     x: 0,
+  //   },
+  //   animate: {
+  //     x: '-230%',
+  //     transition: {
+  //       repeat: Infinity,
+  //       repeatType: 'mirror',
+  //       duration: 50,
+  //       delay: 0.5
+  //     }
+  //   }
+  // }
 
   return (
     <section id='home' className='w-full h-screen md:h-auto bg-blac pt-28 lg:pt-40 pb-3.5 flex flex-col items-center justify-between relative overflow-hidden'>
