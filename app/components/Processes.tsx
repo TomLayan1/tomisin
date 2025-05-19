@@ -6,10 +6,11 @@ import { LuSettings2 } from "react-icons/lu";
 import { MdOutlineDeveloperMode } from "react-icons/md";
 import { GrOptimize } from "react-icons/gr";
 import { motion } from 'motion/react'; 
+import { WorkProcessType } from '@/types/interface';
 
 const Processes:React.FC = () => {
 
-  const workProcess = [
+  const workProcess: WorkProcessType[] = [
     {
       step: 1,
       icon: <LuNotebookPen size={40} className='text-[#896431]' />,

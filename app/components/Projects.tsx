@@ -5,8 +5,12 @@ import { projects } from '../Data/data'
 import { FaGithub } from "react-icons/fa6";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { motion } from 'motion/react';
+import { ProjectType } from '@/types/interface';
+
 
 const Projects:React.FC = () => {
+
+  const myProject: ProjectType[] = projects;
   
   return (
     <section id='work' className='w-full pt-28 overflow-x-hidden'>
@@ -16,7 +20,7 @@ const Projects:React.FC = () => {
           <hr className='min-w-[175px] md:w-[300px] border border-[#896431]' />
         </div>
         <div className=''>
-          {projects?.map(project => (
+          {myProject?.map(project => (
             <div key={project.id} className={`lg:flex ${project.id % 2 === 0 ? 'flex-row-reverse' :'flex-row'} gap-4 mb-10 lg:mb-28`}>
               <motion.div
                 initial={{ opacity: 0 }}
