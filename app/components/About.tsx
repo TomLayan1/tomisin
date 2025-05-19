@@ -21,12 +21,12 @@ const About:React.FC = () => {
             <h1 className='text-3xl text-[#896431] font-bold mb-3'>Stack</h1>
             <div className='flex gap-5 flex-wrap'>
               {stacks.map((stack, i) => (
-                <p key={i} className='border-2 border-t-0 py-1 px-3 rounded-2xl'>{stack}</p>
+                <p key={i} className='border-2 border-t-0 py-1 px-5 rounded-2xl'>{stack}</p>
               ))}
             </div>
           </div>
         </div>
-      </div>
+      </div>      
     </section>
   )
 }

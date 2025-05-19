@@ -19,39 +19,44 @@ const Projects:React.FC = () => {
           {projects?.map(project => (
             <div key={project.id} className={`lg:flex ${project.id % 2 === 0 ? 'flex-row-reverse' :'flex-row'} gap-4 mb-10 lg:mb-28`}>
               <motion.div
-                initial={{ opacity: 0, x: project.id % 2 === 0  ? 30 : -30 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.3 * project.id }}
                 viewport={{ once: true }}
                 className='lg:w-[32%] mb-3.5 lg:mb-0'
               >
                 <div>
                   <p className={`text-2xl md:text-3xl text-[#896431] font-bold ${project.id % 2 === 0 ? 'text-right' : 'text-left'} mb-4`}>{project.name}</p>
-                  <div className='w-full lg:h-[180px] relative mb-4'>
-                    <div className={`bg-[#292727] p-6 lg:absolute z-30 ${project.id % 2 === 0 ? '-left-16' : '-right-16'} rounded-2xl`}>
+                  <div className='w-full lg:h-[180px] relative mb-2'>
+                    <div className={`bg-[#292727] p-6 lg:absolute z-10 ${project.id % 2 === 0 ? '-left-16' : '-right-16'} rounded-2xl`}>
                       <p className='text-[14px]'>{project.description}</p>
                     </div>
                   </div>
-                  <div className={`flex gap-4 ${project.id % 2 === 0 ? 'justify-end' : 'justify-start'} mb-2.5`}>
+                  <div className={`flex flex-wrap gap-3 ${project.id % 2 === 0 ? 'justify-end' : 'justify-start'} mb-2.5`}>
                     {project.stack.map((stack, i) => (
-                      <p key={i} className='text-[14px] bg-[#f5e7d333] py-1 px-3.5 rounded-full'>{stack}</p>
+                      <p key={i} className='text-[13.5px] bg-[#f5e7d333] py-1 px-3.5 rounded-full'>{stack}</p>
                     ))}
                   </div>
                   <div className={`flex items-center ${project.id % 2 === 0 ? 'justify-end' : 'justify-start'} gap-8`}>
-                    <div className='flex items-center gap-1.5 cursor-pointer'>
-                      <p className='text-[14px]'>Code</p>
-                      <FaGithub size={15} />
-                    </div>
-                    <div className='flex items-center gap-1.5 cursor-pointer'>
-                      <p className='text-[14px]'>Live Demo</p>
-                      <FaExternalLinkAlt size={15} />
-                    </div>
+                    
+                    <a href={project.links.github}>
+                      <div className='flex items-center gap-1.5 cursor-pointer'>
+                        <p className='text-[14px]'>Code</p>
+                        <FaGithub size={15} />
+                      </div>
+                    </a>
+                    <a href={project.links?.website}>
+                      <div className='flex items-center gap-1.5 cursor-pointer'>
+                        <p className='text-[14px]'>Live Demo</p>
+                        <FaExternalLinkAlt size={15} />
+                      </div>
+                    </a>
                   </div>
                 </div>
               </motion.div>
               <motion.img 
-                initial={{ opacity: 0, x: project.id % 2 === 0 ? -30 : 30 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, }}
+                whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.3 * project.id }}
                 viewport={{ once: true }}
                 className='lg:w-[65%]' src={project.image} alt={project.name} 
