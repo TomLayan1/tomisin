@@ -3,6 +3,8 @@ import { stacks } from '../Data/data'
 
 const About:React.FC = () => {
 
+  const myStack:string[] = stacks;
+
   return (
     <section id='about' className='w-full pt-28'>
       <div className='constainer w-[93%] lg:w-[80%] mx-auto'>
@@ -20,7 +22,7 @@ const About:React.FC = () => {
           <div className='lg:w-1/2'>
             <h1 className='text-3xl text-[#896431] font-bold mb-3'>Stack</h1>
             <div className='flex gap-5 flex-wrap'>
-              {stacks.map((stack, i) => (
+              {myStack.map((stack, i) => (
                 <p key={i} className='border-2 border-t-0 py-1 px-5 rounded-2xl'>{stack}</p>
               ))}
             </div>
