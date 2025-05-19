@@ -2,10 +2,11 @@
 import React, { useState } from 'react';
 import { MdPlayArrow } from "react-icons/md";
 import { experiences } from '../Data/data';
+import { ExperiencesType } from '@/types/interface';
 
 const Experience:React.FC = () => {
   const [experienceIndex, setExperienceIndex] = useState<number>(0);
-  const myExperience = experiences[experienceIndex];
+  const myExperience: ExperiencesType = experiences[experienceIndex];
 
   return (
     <section className='w-full pt-16 overflow-x-hidden'>

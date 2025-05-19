@@ -12,6 +12,15 @@ export interface ProjectType {
   stack: string[];
 }
 
+export interface ExperiencesType {
+  id: number;
+  companyName: string;
+  role: string;
+  location: string;
+  date: string;
+  whatIDid: string[];
+}
+
 export interface WorkProcessType {
   step: number;
   icon: ReactNode;
