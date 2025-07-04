@@ -28,7 +28,7 @@ const Hero:React.FC = () => {
           </div>
         </div>
       </div>
-      <div className='w-full'>
+      <div className='w-[98%] mx-auto overflow-hidden'>
         <motion.h1 
           initial={{ x: 0 }}
           animate={{ x: '-190%' }}

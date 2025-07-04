@@ -85,9 +85,9 @@ export const experiences = [
   {
     id: 1,
     companyName: 'ExamCompassNG',
-    role: 'Frontend Engineer',
+    role: 'Frontend Engineer (Hybrid)',
     location: 'Lagos, Nigeria',
-    date: 'November, 2024 - May, 2025',
+    date: 'November 2024 - May 2025',
     whatIDid: [
       'Developed frontend components with React, TypeScript, and Tailwind CSS.',
       'Implemented UI elements with Radix UI to improve accessibility and usability.',
