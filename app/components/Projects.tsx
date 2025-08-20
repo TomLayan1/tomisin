@@ -43,13 +43,13 @@ const Projects:React.FC = () => {
                   </div>
                   <div className={`flex items-center ${project.id % 2 === 0 ? 'justify-end' : 'justify-start'} gap-8`}>
                     
-                    <a href={project.links.github}>
+                    <a href={project.links.github} target='_blank'>
                       <div className='flex items-center gap-1.5 cursor-pointer'>
                         <p className='text-[14px]'>Code</p>
                         <FaGithub size={15} />
                       </div>
                     </a>
-                    <a href={project.links?.website}>
+                    <a href={project.links?.website} target='_blank'>
                       <div className='flex items-center gap-1.5 cursor-pointer'>
                         <p className='text-[14px]'>Live Demo</p>
                         <FaExternalLinkAlt size={15} />
