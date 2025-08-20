@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     name: 'Velra',
     image: '/velra.png',
-    description: 'Velra is a modern furniture e-commerce website. Features include product filtering by brand, category, and price,',
+    description: 'Velra is a modern furniture e-commerce website. Features include product filtering by brand, category, and price.',
     links: {
       github: 'https://github.com/TomLayan1/velra',
       website: 'https://velra-shop.vercel.app/'
@@ -85,7 +85,7 @@ export const experiences = [
   {
     id: 1,
     companyName: 'ExamCompassNG',
-    role: 'Frontend Engineer (Hybrid)',
+    role: 'Frontend Engineer (Intern)',
     location: 'Lagos, Nigeria',
     date: 'November 2024 - May 2025',
     whatIDid: [
