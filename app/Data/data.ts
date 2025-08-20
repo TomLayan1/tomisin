@@ -91,6 +91,7 @@ export const experiences = [
     whatIDid: [
       'Developed frontend components with React, TypeScript, and Tailwind CSS.',
       'Implemented UI elements with Radix UI to improve accessibility and usability.',
+      'Implemented user authentication and integrated payment gateway to enhance onboarding and transactions.',
       'Wrote and executed automated tests using Playwright to ensure app reliability.',
       'Collaborated with backend developer, designers to create seamless user experiences.',
       'Improved application performance, reduced load time to enhance efficiency.'
