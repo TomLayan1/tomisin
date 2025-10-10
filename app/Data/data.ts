@@ -72,8 +72,10 @@ export const stacks = [
   'JavaScript',
   'React.JS',
   'Next.JS',
+  'React Native',
   'TypeScript',
   'Redux',
+  'Zustand',
   'Tailwind',
   'GraphQL',
   'Playwright',
@@ -85,15 +87,29 @@ export const experiences = [
   {
     id: 1,
     companyName: 'ExamCompassNG',
-    role: 'Frontend Engineer (Hybrid)',
+    role: 'Frontend Developer',
     location: 'Lagos, Nigeria',
-    date: 'November 2024 - May 2025',
+    date: 'November 2024 - Present',
     whatIDid: [
-      'Developed frontend components with React, TypeScript, and Tailwind CSS.',
-      'Implemented UI elements with Radix UI to improve accessibility and usability.',
-      'Wrote and executed automated tests using Playwright to ensure app reliability.',
-      'Collaborated with backend developer, designers to create seamless user experiences.',
-      'Improved application performance, reduced load time to enhance efficiency.'
+      "Developed and deployed responsive frontend components using React, TypeScript, and Tailwind CSS, enhancingapplication speed and user engagement",
+      "Collaboratively built a student-focused web application designed to address the challenge of UTME examfailure,providing users with access to past questions, study materials, and performance tracking tools to improveadmission success rates",
+      "Implemented accessible UI elements with Radix UI, improving usability and ensuring compliance withaccessibilitystandards",
+      "Integrated Paystack payment gateway, enabling secure and seamless online transactions for users",
+      "Wrote and executed automated tests with Playwright, increasing app reliability and reducing post-releasebugs",
+      "Collaborated closely with backend developers and designers to deliver seamless user experiences, resultinginsmoother feature rollouts",
+      "Optimized application performance, reducing load time by 5% boosting efficiency and user retention"
+    ]
+  },
+  {
+    id: 2,
+    companyName: 'Freelance',
+    role: 'Frontend/Mobile Developer',
+    location: 'Remote',
+    date: '2024 - Present',
+    whatIDid: [
+      "Built custom web solutions for clients across e-commerce, Web3, and real estate niche React.js, Next.js, SASS, Tailwind CSS, Radix UI, Context API, and Redux ensuring mobile scalability and responsiveness",
+      "Delivered high-performing, scalable interfaces in collaboration with front end developers, backendengineersandUI/UX designers, resulting in improved user engagement and faster feature delivery",
+      "Developed and deployed cross-platform mobile applications across diverse niches using React Native, deliveringresponsive and high-performing user interfaces"
     ]
   }
 ]

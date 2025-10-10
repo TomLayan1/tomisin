@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { MdPlayArrow } from "react-icons/md";
 import { experiences } from '../Data/data';
 import { ExperiencesType } from '@/types/interface';
+import Link from 'next/link';
 
 const Experience:React.FC = () => {
   const [experienceIndex, setExperienceIndex] = useState<number>(0);
@@ -11,8 +12,8 @@ const Experience:React.FC = () => {
   return (
     <section className='w-full pt-16 overflow-x-hidden'>
       <div className='container w-[95%] lg:w-[80%] mx-auto'>
-        <div className='w-full flex items-center gap-3 mb-10 lg:mb-10'>
-          <h1 className='text-3xl md:text-5xl'>Where I have worked</h1>
+        <div className='w-full flex items-center gap-1 mb-5 lg:mb-10'>
+          <h1 className='text-xl md:text-5xl'>Where I have worked</h1>
           <hr className='min-w-[175px] md:w-[300px] border border-[#896431]' />
         </div>
         <div className='hidden md:flex'>
@@ -25,7 +26,7 @@ const Experience:React.FC = () => {
             <div className='mb-7'>
               <div className='flex gap-2 mb-2'>
                 <p className='font-bold'>{myExperience.role}</p>
-                <p className='font-bold text-[#896431]'>@ {myExperience.companyName}</p>
+                <Link href='https://www.examcompassng.com/' target='_blank' className='font-bold text-[#896431]'>@ {myExperience.companyName}</Link>
               </div>
               <p className='mb-2'>{myExperience.date}</p>
             </div>
