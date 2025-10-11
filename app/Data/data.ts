@@ -45,10 +45,10 @@ export const projects = [
     description: 'Coinwise, a cryptocurrency web app that displays live market prices and historical trends. Using Tailwind CSS for responsive design, Rapid API for real-time data, Moment for precise time formatting, and Chart JS for interactive visualizations.',
     links: {
       github: 'https://github.com/TomLayan1/Coinwise/tree/main/coinwise',
-      website: 'https://coinwiseng.netlify.app'
+      website: 'https://coinwise-ng.vercel.app/'
     },
     stack: [
-      'React', 'Tailwind'
+      'React', 'Tailwind', 'Zustand', 'Chart JS', 'Framer Motion'
     ]
   },
   {
