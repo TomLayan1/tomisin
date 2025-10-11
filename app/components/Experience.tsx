@@ -19,7 +19,7 @@ const Experience:React.FC = () => {
         <div className='hidden md:flex'>
           <div className='w-[45%] lg:w-[40%]'>
             {experiences?.map((experience, i) => (
-              <div key={experience.id} onClick={() => setExperienceIndex(i)} className={`w-full py-3 pl-5 cursor-pointer duration-200 ${i === experienceIndex ? 'bg-[#292727] border-l-2' : 'border-0'}`}>{experience.companyName}</div>          
+              <div key={experience.id} onClick={() => setExperienceIndex(i)} className={`w-full py-3 pl-5 cursor-pointer duration-200 hover:bg-[#29272776] mb-1 ${i === experienceIndex ? 'bg-[#292727] border-l-2' : 'border-0'}`}>{experience.companyName}</div>          
             ))}
           </div>
           <div className='py-3 px-4'>
