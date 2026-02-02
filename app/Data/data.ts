@@ -9,14 +9,14 @@ export const projects = [
       website: 'https://velra-shop.vercel.app/'
     },
     stack: [
-      'React', 'TypeScript', 'Redux', 'Tailwind',
+      'React', 'TypeScript', 'Redux', 'Tailwind'
     ]
   },
   {
     id: 2,
     name: 'City Scape',
     image: '/city-scape.png',
-    description: 'City Scape is a modern real estate platform that allows users search for rental properties and homes for sale. It features a dedicated property details page that provides in-depth information, including an interactive image carousel for a comprehensive view of each listing.',
+    description: 'City Scape is a modern real estate platform that allows users search for rental properties and homes for sale. It features a dedicated property details page that provides in-depth information, including an interactive image carousel for a comprehensive view of each listing. Rapid API for real-time data.',
     links: {
       github: 'https://github.com/TomLayan1/Real-estate/tree/main/real-estate',
       website: 'https://cityscapeng.netlify.app/'
@@ -35,14 +35,14 @@ export const projects = [
       website: 'https://driveluxury.netlify.app'
     },
     stack: [
-      'React', 'Tailwind', 'Swiper JS'
+      'React', 'Tailwind', 'Framer Motion', 'Swiper JS', 'Paystack'
     ]
   },
   {
     id: 4,
     name: 'Coinwise',
     image: '/coinwise.png',
-    description: 'Coinwise, a cryptocurrency web app that displays live market prices and historical trends. Using Tailwind CSS for responsive design, Rapid API for real-time data, Moment for precise time formatting, and Chart JS for interactive visualizations.',
+    description: 'Coinwise, a cryptocurrency web app that displays live market prices and historical trends. Using Tailwind CSS for responsive design, Rapid API for real-time data, Zustand for state management, Moment for precise time formatting, and Chart JS for interactive visualizations.',
     links: {
       github: 'https://github.com/TomLayan1/Coinwise/tree/main/coinwise',
       website: 'https://coinwise-ng.vercel.app/'
@@ -61,7 +61,7 @@ export const projects = [
       website: 'https://techtrenddigest.netlify.app'
     },
     stack: [
-      'React', 'Tailwind'
+      'React', 'Tailwind', 'Framer Motion'
     ]
   }
 ]
@@ -89,7 +89,7 @@ export const experiences = [
     companyName: 'ExamCompassNG',
     role: 'Frontend Developer',
     location: 'Lagos, Nigeria',
-    date: 'November 2024 - Present',
+    date: 'November 2024 - October 2025',
     whatIDid: [
       "Developed and deployed responsive frontend components using React, TypeScript, and Tailwind CSS, enhancingapplication speed and user engagement",
       "Collaboratively built a student-focused web application designed to address the challenge of UTME examfailure,providing users with access to past questions, study materials, and performance tracking tools to improveadmission success rates",
